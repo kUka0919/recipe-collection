@@ -6,30 +6,29 @@
     at the bottom. My goal was to create a clean, easy-to-navigate page where each recipe is clearly organized and simple to follow.
 
 2. **HTML Elements**
-    - '<nav>' and '<a href="#id">' : Understanding how a link’s href=”#pasta” matches an
+    - The nav and anchor link element : Understanding how a link’s href=”#pasta” matches an
      element’s id=“pasta” took some getting used to, along with learning what the title attribute
      does as a hover tooltip. 
-    - '<figure>' / '<figcaption>' : I initially didn’t see why this was needed
+    - Figure and figcaption: I initially didn’t see why this was needed
      over a plain image and caption, until I understood it groups them as one related unit. •
-    - '<time>' : The most confusing, since it adds no visible change to the page. I learned the
+    -  The time element : The most confusing, since it adds no visible change to the page. I learned the
     datetime attribute stores a machine-readable value behind the scenes. 
-    - '<p>' vs. heading tags : I first assumed the difference was just font size, before realizing headings represent structural importance, not just styling. 
-    - '<table>' : Getting '<tr>', '<th>', and '<td>' properly nested and closed took some trial and error.
+    - Paragraph vs. heading tags : I first assumed the difference was just font size, before realizing headings represent structural importance, not just styling. 
+    - Table element: Getting the table row, headder cell, and table data cell properly nested and closed took some trial and error.
 
-    - I used '<header>' for the site title and navigation, '<main>' to wrap all the recipe content,
-'<article>' for each individual recipe as a self-contained unit, '<section>' for the nutrition
-overview, and '<footer>' for the copyright notice at the bottom.
-iii. '<article>' was the most useful, since it let me treat each recipe as its own independent
+    - I used the header element for the site title and navigation, the main element to wrap all the recipe content, article element for each individual recipe as a self-contained unit, section element for the nutrition overview, and footer element for the copyright notice at the bottom.
+
+    -  'The article element was the most useful, since it let me treat each recipe as its own independent
 block of content with a consistent internal structure (heading, image, ingredients, steps),
 making the page easy to navigate and extend.
 
 3. **HTML Attributes**
     - href - without it, my navigation links wouldn’t be able to jump to each recipe section. 
     - id- needed to give each recipe a unique target for the navigation links to point to.
-    - src -required for each <img> to actually display an image on the page.
+    - src -required for each image to actually display an image on the page.
 
    - I used id to give each recipe a unique identifier so navigation links could jump to that
-   specific section. I used class=“recipe” on all five <article> elements to mark them as the
+   specific section. I used class=“recipe” on all five article elements to mark them as the
    same type of content since a class can be reused across multiple elements while an id must
    stay unique to one.
 
