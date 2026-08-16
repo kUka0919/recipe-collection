@@ -6,20 +6,20 @@
     at the bottom. My goal was to create a clean, easy-to-navigate page where each recipe is clearly organized and simple to follow.
 
 2. **HTML Elements**
-    - <nav> and <a href="#id"> : Understanding how a link’s href=”#pasta” matches an
+    - '<nav>' and '<a href="#id">' : Understanding how a link’s href=”#pasta” matches an
      element’s id=“pasta” took some getting used to, along with learning what the title attribute
      does as a hover tooltip. 
-    - <figure> / <figcaption> : I initially didn’t see why this was needed
+    - '<figure>' / '<figcaption>' : I initially didn’t see why this was needed
      over a plain image and caption, until I understood it groups them as one related unit. •
-    - <time> : The most confusing, since it adds no visible change to the page. I learned the
+    - '<time>' : The most confusing, since it adds no visible change to the page. I learned the
     datetime attribute stores a machine-readable value behind the scenes. 
-    - <p> vs. heading tags : I first assumed the difference was just font size, before realizing headings represent structural importance, not just styling. 
-    - <table> : Getting <tr>, <th>, and <td> properly nested and closed took some trial and error.
+    - '<p>' vs. heading tags : I first assumed the difference was just font size, before realizing headings represent structural importance, not just styling. 
+    - '<table>' : Getting '<tr>', '<th>', and '<td>' properly nested and closed took some trial and error.
 
-    - I used <header> for the site title and navigation, <main> to wrap all the recipe content,
-<article> for each individual recipe as a self-contained unit, <section> for the nutrition
-overview, and <footer> for the copyright notice at the bottom.
-iii. <article> was the most useful, since it let me treat each recipe as its own independent
+    - I used '<header>' for the site title and navigation, '<main>' to wrap all the recipe content,
+'<article>' for each individual recipe as a self-contained unit, '<section>' for the nutrition
+overview, and '<footer>' for the copyright notice at the bottom.
+iii. '<article>' was the most useful, since it let me treat each recipe as its own independent
 block of content with a consistent internal structure (heading, image, ingredients, steps),
 making the page easy to navigate and extend.
 
